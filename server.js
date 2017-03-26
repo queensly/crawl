@@ -10,4 +10,4 @@ app.get('/', function (req, res) {
         res.render('index',{movies:docs})
     })
 });
-app.listen(80);
+app.listen(8080);
